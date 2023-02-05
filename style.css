@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.container{
+    padding: 25px;
+    border: 1px solid black;
+}
+.output{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:  25px;
+}
+.left-side-output {
+    font-size: 20px;
+    margin-right: 20px;
+}
+.left-side-output h2{
+    margin-bottom: 20px;
+}
+.right-side-output h2 {
+    margin-bottom: 20px;
+
+}
+.right-side-output {
+    width: 200px;
+    font-size: 20px;
+    margin-right: 20px;
+    color: rgb(53, 15, 15);
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.buttons button{
+    padding: 15px;
+    font-weight: 500;
+    font-size: 25px;
+    background: rgb(155, 150, 150);
+    color: white;
+    border-radius: 10px;
+}
